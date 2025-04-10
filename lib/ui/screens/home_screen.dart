@@ -20,7 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       key: scaffoldKey,
-      appBar: MediaQuery.sizeOf(context).width < SizeConfig.tablet
+      appBar: MediaQuery.sizeOf(context).width < SizeConfig.tablet //mean mobile
           ? AppBar(
               elevation: 0,
               leading: IconButton(

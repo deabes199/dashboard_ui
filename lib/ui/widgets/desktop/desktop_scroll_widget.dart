@@ -7,7 +7,7 @@ class DesktopScrollWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  Expanded(
+    return Expanded(
           flex: 3,
           child: CustomScrollView(
             slivers: [

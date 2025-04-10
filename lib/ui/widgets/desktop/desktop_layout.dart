@@ -1,4 +1,3 @@
-import 'dart:developer';
 
 import 'package:dashboard_ui/ui/widgets/desktop/desktop_scroll_widget.dart';
 import 'package:dashboard_ui/ui/widgets/desktop/part1/drawer/custom_drawer.dart';

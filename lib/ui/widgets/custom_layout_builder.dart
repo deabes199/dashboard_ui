@@ -12,12 +12,12 @@ class CustomLayoutBuilder extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return LayoutBuilder(builder: (context, constrians) {
-      if (constrians.maxWidth < SizeConfig.tablet) {
-        return mobile(context);
-      } else if (constrians.maxWidth < SizeConfig.desktop) {
-        return tablet(context);
+      if (constrians.maxWidth < SizeConfig.tablet) {//800
+        return mobile(context);//600
+      } else if (constrians.maxWidth < SizeConfig.desktop) {//1200
+        return tablet(context); //800
       } else {
-        return desktop(context);
+        return desktop(context);//1200
       }
     });
   }

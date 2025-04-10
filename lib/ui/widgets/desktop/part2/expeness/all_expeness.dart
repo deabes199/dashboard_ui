@@ -21,12 +21,7 @@ class AllExpeness extends StatelessWidget {
         children: [
           HeaderWidget(),
           verticalSpace(16),
-          Row(
-            children: [
-              ExpensessList(),
-            ],
-          ),
-          
+          ExpensessList(),
         ],
       ),
     );
